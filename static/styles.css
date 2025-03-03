@@ -1,0 +1,52 @@
+/* styles.css */
+
+body {
+    font-family: sans-serif; /* Choose a font you like */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure full viewport height */
+    margin: 0; /* Remove default margins */
+}
+
+.wrapper {
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    width: 500px; /* Adjust width as needed */
+}
+
+#wizard h4 {
+    color: #333; /* Darker heading color */
+    margin-bottom: 20px;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    border-radius: 4px;
+}
+
+.btn-secondary {
+    background-color: #007bff; /* Example: Blue submit button */
+    border-color: #007bff;
+}
+
+.btn-secondary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Optional: Style the body background if you don't like primary */
+body.bg-primary {
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Optional: Style the form labels (if you add them) */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
